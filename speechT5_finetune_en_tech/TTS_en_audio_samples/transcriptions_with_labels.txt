@@ -1,0 +1,7 @@
+audio, transcription
+
+audio1.wav, "Explain how to use a GPU with CUDA to accelerate a machine learning inference service that exposes REST API."
+audio2.wav, "How would you secure a REST API that offloads intensive computations to a CUDA enabled GPU using OAuth"
+audio3.wav, "What are the key components of a Text to Speech, TTS system"
+audio4.wav, "What is the role of phonemes in TTS systems and why are they important for pronunciation?"
+audio5.wav, "How can you handle out of vocabulary (OOV) words when developing a TTS model?"
