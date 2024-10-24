@@ -81,7 +81,7 @@ Follow these steps to set up the environment and run the model:
 ### Running the TTS Model
 
 1. **Interactive TTS using Gradio**:
-    The model comes with a simple Gradio interface for testing TTS you can create your own interface using the app_reference_code.py reference. To run the interface:
+    The model comes with a simple Gradio interface for testing TTS you can create your own interface using the `app_reference_code.py` reference. To run the interface:
     
     ```bash
     python run_gradio_app.py
@@ -144,7 +144,7 @@ To fine-tune the model with a custom dataset, follow these steps:
     python fine_tune.py --dataset your-dataset-path --epochs 5 --batch_size 16 --learning_rate 3e-5
     ```
 
-    For detailed instructions, refer to the fine-tuning documentation on Hugging Face.
+    For detailed instructions, refer to the fine-tuning documentation on [Hugging Face](https://huggingface.co/microsoft/speecht5_tts).
 
 ---
 
