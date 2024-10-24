@@ -1,0 +1,11 @@
+numpy==1.23.5
+transformers
+datasets
+soundfile
+torch
+torchaudio
+sentencepiece
+speechbrain==0.5.16
+librosa
+gradio
+re
