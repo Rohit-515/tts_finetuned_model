@@ -138,8 +138,9 @@ To fine-tune the model with a custom dataset, follow these steps:
     - Audio normalization (16kHz sampling rate).
 
 2. **Fine-Tuning Process**:
-    Modify the `fine_tune.py` script with your dataset paths and hyperparameter configurations.
+    Modify your the `fine_tune.py`(say) script with your dataset paths and hyperparameter configurations.
 
+    Example:
     ```bash
     python fine_tune.py --dataset your-dataset-path --epochs 5 --batch_size 16 --learning_rate 3e-5
     ```
@@ -179,5 +180,5 @@ Contributions are welcome! Feel free to open issues or submit pull requests if y
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+This project is licensed under the MIT License.
 
