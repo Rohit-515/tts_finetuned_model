@@ -1,4 +1,4 @@
-Fine-Tuned SpeechT5 Text-to-Speech (TTS) Model
+## Fine-Tuned SpeechT5 Text-to-Speech (TTS) Model
 
 This repository provides an implementation of a fine-tuned version of the SpeechT5 Text-to-Speech (TTS) model, fine-tuned for English technical terms and Hindi regional language. The model can convert text input into synthesized speech for both languages, with a focus on technical vocabulary and regional accents.
 
