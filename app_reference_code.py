@@ -106,13 +106,13 @@ def text_to_speech(text, audio_file=None):
 iface = gr.Interface(
     fn=text_to_speech,
     inputs=[
-        gr.Textbox(label="Enter Turkish text to convert to speech")
+        gr.Textbox(label="Enter text to convert to speech")
     ],
     outputs=[
         gr.Audio(label="Generated Speech", type="numpy")
     ],
-    title="Turkish SpeechT5 Text-to-Speech Demo",
-    description="Enter Turkish text, and listen to the generated speech."
+    title="SpeechT5 Text-to-Speech Demo",
+    description="Enter your text, and listen to the generated speech."
 )
 
 iface.launch(share=True)
